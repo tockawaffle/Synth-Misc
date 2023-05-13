@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 1.5;">
+    <section class="hero"
+        style="background-color: #3d3d3d; color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 400px; text-align: center;">
+        <div class="container" style="margin: 0 auto; max-width: 850px; padding: 40px;">
+            <h1 style="font-size: 24px; font-weight: 700; margin-bottom: 18px; color: #ffffff">
+                Enhance Your Discord Experience!
+            </h1>
+            <p style="font-size: 18px; font-weight: 300">
+                Say hello to Synth Bot, your friendly AI-powered chatbot that is designed to make your conversations more engaging and exciting!
+                Whether you're a novice or an advanced user, Synth Bot is intuitive and user-friendly, making it accessible to everyone.
+            </p>
+            <p style="font-size: 18px; font-weight: 300; margin-bottom: 40px;">
+                Continue scrolling to check my features and commands!
+            </p>
+        </div>
+    </section>
+    <section class="features" id="features" style="display: flex; justify-content: space-between; margin-top: 80px;">
+        <div class="feature"
+            style="background-color: #3d3d3d; color: #ffffff; flex-basis: calc(33.33% - 20px); padding: 40px; text-align: center;">
+            <img src="https://github.com/tockawaffle/SynthAi-Bot/blob/main/images/icons/chat.png?raw=true"
+                alt="Feature 1 Icon" class="title-icon"
+                style="display: inline-block; height: 128px; margin-right: 20px; width: 128px;">
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px;">Enhance Conversations</h3>
+            <p style="font-size: 18px;">
+                Synth Bot can help you enhance your conversations on Discord by generating creative responses to your messages.
+            </p>
+        </div>
+        <div class="feature"
+            style="background-color: #3d3d3d; color: #ffffff; flex-basis: calc(33.33% - 20px); padding: 40px; text-align: center;">
+            <img src="https://github.com/tockawaffle/SynthAi-Bot/blob/main/images/icons/product.png?raw=true"
+                alt="Feature 2 Icon" class="title-icon"
+                style="display: inline-block; height: 128px; margin-right: 20px; width: 128px;">
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px;">Multiple Commands</h3>
+            <p style="font-size: 18px;">
+                Synth Bot has a variety of commands that you can use to make your conversations on Discord more fun and exciting.
+            </p>
+        </div>
+        <div class="feature"
+            style="background-color: #3d3d3d; color: #ffffff; flex-basis: calc(33.33% - 20px); padding: 40px; text-align: center;">
+            <img src="https://github.com/tockawaffle/SynthAi-Bot/blob/main/images/icons/ai.png?raw=true"
+                alt="Feature 3 Icon" class="title-icon"
+                style="display: inline-block; height: 128px; margin-right: 20px; width: 128px;">
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px;">AI-Powered</h3>
+            <p style="font-size: 18px;">
+                Synth Bot is powered by the latest AI technologies, including: GPT-3.5, Bing, Whisper and Dall-E.
+                All to provide you with the best possible experience!
+            </p>
+        </div>
+    </section>
+    <section class="commands" id="commands" style="background-color: #ffffff; color: #3d3d3d; padding: 80px 0;">
+        <div class="container" style="margin: 0 auto; max-width: 850px; padding: 0px;">
+            <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 40px; text-align: center;">Commands</h2>
+            <p style="font-size: 22px; font-weight: 300; margin-bottom: 40px;">
+                With Synth Bot, you can interact with specific commands or start a chat using a subject and model ofyour choice:
+            </p>
+            <ul style="list-style: none;">
+                <li style="font-size: 18px; line-height: 1;">
+                    Shows a list of categories of avaiable commands:
+                    /help
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Sets the category for the specified model:
+                    /config category &lt;tBing | GPT&gt; &lt;#Category&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    Sets the language for the bot (Per User):
+                    /config language &lt;English | Portugues&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Will provide help while using the start-chat command:
+                    /start-chat help
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Starts a chat using the specified subject and model:
+                    /start-chat assistants &lt;subject&gt; &lt;model&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Generates an image with the given prompt and size, using the DALL-E model:
+                    /image dall-e &lt;prompt&gt; &lt;size&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Will provide some more information on what the optional parameters do on each whisper command.
+                    /whisper help &lt;translate | transcribe&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Transcribes a video from the given URL, using the specified language, defaulting to english, you can also use prompting to guide the model:
+                    /whisper transcribe &lt;url&gt; &lt;prompting?&gt; &lt;language?&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Translates a video to english from the given URL, you can use prompting to guide the model:
+                    /whisper translate &lt;url&gt; &lt;prompting?&gt;
+                </li>
+                <li style="font-size: 18px; line-height: 1;">
+                    * Asks a question to the model:
+                    /ask-me &lt;question&gt; &lt;model&gt;
+                </li>
+            </ul>
+
+            <p style="font-size: 18px; font-weight: 600;">
+                You can also DM the bot to start a chat without having to specify a subject or model!
+            </p>
+            <p style="font-size: 16px; font-weight: 600;">
+                * - Only works on servers.
+                ? - Optional parameter.
+            </p>
+        </div>
+    </section>
+    <section style="background-color: #3d3d3d; color: #ffffff; padding: 30px 0;">
+        <div class="container" style="margin: 0 auto; max-width: 850px; text-align: center;">
+            <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 40px;">Get Started</h2>
+            <p style="font-size: 18px; font-weight: 300; margin-bottom: 40px;">
+                To get started, simply invite Synth Bot to your server and start chatting!
+            </p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1096096564264579133&scope=bot&permissions=515396455504"
+                class="button"
+                style="border-radius: 4px; color: #ffffff; display: inline-block; font-size: 18px; font-weight: 600; margin: 0 auto; padding: 20px 40px; text-decoration: none;">
+                Invite Synth Bot
+            </a>
+        </div>
+    </section>
+    <section style="background-color: #ffffff; color: #3d3d3d; padding: 80px 0;">
+        <div class="container" style="margin: 0 auto; max-width: 850px; text-align: center;">
+            <h2
+                style="font-size: 24px !important; font-weight: 700 !important; margin-bottom: 20px !important; text-align: center;">
+                About Synth Bot
+            </h2>
+            <p style="font-size: 16px !important; font-weight: 300 !important; margin-bottom: 10px !important;">
+                With the latest AI technologies powering Synth Bot, including GPT-3.5 and Bing, you can expect a seamless and exciting conversation experience. Synth Bot is equipped with a variety of features, including the ability to generate creative responses to your messages, provide recommendations based on your preferences, and even chat with you in a natural and easy way.
+            </p>
+            <p style="font-size: 16px !important; font-weight: 300 !important; margin-bottom: 10px !important;">
+                One of Synth Bot's unique features is the ability to interact with you through specific commands, making it easy to navigate and customize your chat experience. Whether you're a casual user or a power user, Synth Bot is the perfect companion to take your Discord interactions to the next level.
+            </p>
+            <p style="font-size: 16px !important; font-weight: 300 !important; margin-bottom: 10px !important;">
+                But Synth Bot isn't just limited to chat. Synth Bot can also generate images based on your prompts, opening up a whole new world of possibilities for creative expression on Discord. With its open-source code and commitment to innovation, Synth Bot is the ultimate Discord companion for those who want to explore the cutting edge of AI technology.
+            </p>
+            <p style="font-size: 16px !important; font-weight: 300 !important; margin-bottom: 10px !important;">
+                To learn more about it's functions, features and mainly the tokenization that is embeded with each feature to make it more secure, check out the github repo!
+            </p>
+            <a href="https://github.com/tockawaffle/SynthAi-Bot"
+                style="font-size: 18px !important; font-weight: 600 !important; padding: 10px 15px !important; text-transform: uppercase !important; text-decoration: none !important; transition: all 0.3s ease !important; text-align: center !important;">
+                Learn More
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
